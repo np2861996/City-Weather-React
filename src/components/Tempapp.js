@@ -21,7 +21,7 @@ function Tempapp() {
             <div className='body-main'>
                 <div className='box'>
                     <div className='inputdata'>
-                        <input type='search' placefolder="Enter City" className='inputField' onChange={(event) => { setSearch(event.target.value) }} />
+                        <input type='search' placeHolder="Enter City" className='inputField' onChange={(event) => { setSearch(event.target.value) }} />
                     </div>
 
                 </div>
