@@ -1,3 +1,44 @@
+body {
+  margin: 0;
+  align-items: center;
+  background-image: linear-gradient(236deg,#ff3535,#e0e1e9);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+.body-main {
+  border: 1px solid #fff;
+  padding: 20px;
+  border-width: 5px;
+  border-radius: 15px;
+  background-color: #3A98B9;
+  color: #fff;
+}
+p.no-found {
+  text-align: center;
+}
+h2.location {
+  padding: 0 20px;
+  font-size: 44px;
+  text-transform: capitalize;
+}
+h1.temp {
+  text-align: center;
+}
+i.fa-solid.fa-street-view {
+  padding: 20px 20px 0 0;
+  font-size: 72px;
+}
+input.inputField {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 20px;
+  border: 2px solid gray;
+  font-size: 20px;
+  color: black;
+  text-transform: capitalize;
+}
 .App {
   text-align: center;
 }
